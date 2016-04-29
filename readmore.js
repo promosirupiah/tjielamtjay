@@ -1,5 +1,3 @@
-<!-- Auto read more script Start -->
-<script type='text/javascript'>
 var thumbnail_mode = "yes"; //yes -with thumbnail, no -no thumbnail
 summary_noimg = 430; //summary length when no image
 summary_img = 340; //summary length when with image
@@ -40,5 +38,3 @@ function createSummaryAndThumb(pID){
  div.innerHTML = summary;
 }
 //]]>
-</script>
-<!-- Auto read more script End -->
