@@ -3,9 +3,8 @@ summary_noimg = 430; //summary length when no image
 summary_img = 340; //summary length when with image
 img_thumb_height = 200;
 img_thumb_width = 200;
-</script>
-<script type='text/javascript'>
-//<![CDATA[
+
+
 function removeHtmlTag(strx,chop){ 
  if(strx.indexOf("<")!=-1)
  {
@@ -37,4 +36,4 @@ function createSummaryAndThumb(pID){
  var summary = imgtag + '<div>' + removeHtmlTag(div.innerHTML,summ) + '</div>';
  div.innerHTML = summary;
 }
-//]]>
+
