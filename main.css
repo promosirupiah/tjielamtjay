@@ -713,7 +713,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
    -svg-background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
    margin:0 auto;
    position: relative;
-   z-index: 499;
+   z-index: 5;
    text-align: left;
 }
 
