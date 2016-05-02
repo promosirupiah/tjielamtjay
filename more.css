@@ -1,11 +1,11 @@
 
-ul..art-blockcontent, ul..art-blockcontent ul
+ul.art-blockcontent, ul.art-blockcontent ul
 {
    list-style: none;
    display: block;
 }
 
-ul..art-blockcontent, ul..art-blockcontent li
+ul.art-blockcontent, ul.art-blockcontent li
 {
    display: block;
    margin: 0;
@@ -14,13 +14,13 @@ ul..art-blockcontent, ul..art-blockcontent li
    line-height: 0;
 }
 
-ul..art-blockcontent
+ul.art-blockcontent
 {
    margin-top: 0;
    margin-bottom: 0;
 }
 
-ul..art-blockcontent ul
+ul.art-blockcontent ul
 {
    display: none;
    margin: 0;
@@ -28,12 +28,12 @@ ul..art-blockcontent ul
    position: relative;
 }
 
-ul..art-blockcontent ul.active
+ul.art-blockcontent ul.active
 {
    display: block;
 }
 
-ul..art-blockcontent>li>a
+ul.art-blockcontent>li>a
 {
    background: #FFFFFF;
    background: rgba(255, 255, 255, 0.2);
@@ -50,7 +50,7 @@ ul..art-blockcontent>li>a
    min-height: 30px;
    line-height: 30px;
 }
-ul..art-blockcontent a 
+ul.art-blockcontent a 
 {
    display: block;
    cursor: pointer;
@@ -63,26 +63,26 @@ ul..art-blockcontent a
    position:relative;
 }
 
-ul..art-blockcontent li{
+ul.art-blockcontent li{
    position:relative;
 }
 
-ul..art-blockcontent>li
+ul.art-blockcontent>li
 {
    margin-top: 0;
 }
-ul..art-blockcontent>li>ul
+ul.art-blockcontent>li>ul
 {
    padding: 0;
    margin-top: 0;
    margin-bottom: 0;
 }
-ul..art-blockcontent>li:first-child
+ul.art-blockcontent>li:first-child
 {
    margin-top:0;
 }
 
-ul..art-blockcontent>li>a:before
+ul.art-blockcontent>li>a:before
 {
    content:url('images/vmenuitemicon.png');
    margin-right:5px;
@@ -93,13 +93,13 @@ ul..art-blockcontent>li>a:before
    font-size:0;
    line-height:0;
 }
-.opera ul..art-blockcontent>li>a:before
+.opera ul.art-blockcontent>li>a:before
 {
    /* Vertical-align:middle in Opera doesn't need additional offset */
     bottom: 0;
 }
 
-ul..art-blockcontent>li>a.active:before
+ul.art-blockcontent>li>a.active:before
 {
    content:url('images/vmenuactiveitemicon.png');
    margin-right:5px;
@@ -110,13 +110,13 @@ ul..art-blockcontent>li>a.active:before
    font-size:0;
    line-height:0;
 }
-.opera ul..art-blockcontent>li>a.active:before
+.opera ul.art-blockcontent>li>a.active:before
 {
    /* Vertical-align:middle in Opera doesn't need additional offset */
     bottom: 0;
 }
 
-ul..art-blockcontent>li>a:hover:before,  ul..art-blockcontent>li>a.active:hover:before,  ul..art-blockcontent>li:hover>a:before,  ul..art-blockcontent>li:hover>a.active:before
+ul.art-blockcontent>li>a:hover:before,  ul.art-blockcontent>li>a.active:hover:before,  ul.art-blockcontent>li:hover>a:before,  ul.art-blockcontent>li:hover>a.active:before
 {
    content:url('images/vmenuhovereditemicon.png');
    margin-right:5px;
@@ -127,33 +127,33 @@ ul..art-blockcontent>li>a:hover:before,  ul..art-blockcontent>li>a.active:hover:
    font-size:0;
    line-height:0;
 }
-.opera ul..art-blockcontent>li>a:hover:before, .opera   ul..art-blockcontent>li>a.active:hover:before, .opera   ul..art-blockcontent>li:hover>a:before, .opera   ul..art-blockcontent>li:hover>a.active:before
+.opera ul.art-blockcontent>li>a:hover:before, .opera   ul.art-blockcontent>li>a.active:hover:before, .opera   ul.art-blockcontent>li:hover>a:before, .opera   ul.art-blockcontent>li:hover>a.active:before
 {
    /* Vertical-align:middle in Opera doesn't need additional offset */
     bottom: 0;
 }
 
-ul..art-blockcontent>li>a:hover, ul..art-blockcontent>li>a.active:hover
+ul.art-blockcontent>li>a:hover, ul.art-blockcontent>li>a.active:hover
 {
    padding:0 15px;
    margin:0 auto;
 }
-ul..art-blockcontent>li>a:hover, ul..art-blockcontent>li>a.active:hover
+ul.art-blockcontent>li>a:hover, ul.art-blockcontent>li>a.active:hover
 {
    text-decoration: none;
 }
 
-ul..art-blockcontent a:hover, ul..art-blockcontent a.active:hover 
+ul.art-blockcontent a:hover, ul.art-blockcontent a.active:hover 
 {
    color: #642302;
 }
 
-ul..art-blockcontent>li>a.active:hover>span.border-top, ul..art-blockcontent>li>a.active:hover>span.border-bottom 
+ul.art-blockcontent>li>a.active:hover>span.border-top, ul.art-blockcontent>li>a.active:hover>span.border-bottom 
 {
    background-color: transparent;
 }
 
-ul..art-blockcontent>li>a.active
+ul.art-blockcontent>li>a.active
 {
    background: #E2341D;
    background: rgba(226, 52, 29, 0.4);
@@ -167,7 +167,7 @@ ul..art-blockcontent>li>a.active
    color: #7D2B03;
 }
 
-ul..art-blockcontent>li>ul:before
+ul.art-blockcontent>li>ul:before
 {
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
@@ -182,7 +182,7 @@ ul..art-blockcontent>li>ul:before
    left: 0;
 }
 
-ul..art-blockcontent li li a
+ul.art-blockcontent li li a
 {
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
@@ -191,17 +191,17 @@ ul..art-blockcontent li li a
    margin:0 auto;
    position: relative;
 }
-ul..art-blockcontent ul li
+ul.art-blockcontent ul li
 {
    margin: 0;
    padding: 0;
 }
-ul..art-blockcontent li li{
+ul.art-blockcontent li li{
    position: relative;
    margin-top: 0;
 }
 
-ul..art-blockcontent ul a
+ul.art-blockcontent ul a
 {
    display: block;
    position: relative;
@@ -222,7 +222,7 @@ ul..art-blockcontent ul a
    margin-right: 0;
 }
 
-ul..art-blockcontent ul a:visited, ul..art-blockcontent ul a.active:hover, ul..art-blockcontent ul a:hover, ul..art-blockcontent ul a.active
+ul.art-blockcontent ul a:visited, ul.art-blockcontent ul a.active:hover, ul.art-blockcontent ul a:hover, ul.art-blockcontent ul a.active
 {
    line-height: 22px;
    color: #404040;
@@ -235,24 +235,24 @@ ul..art-blockcontent ul a:visited, ul..art-blockcontent ul a.active:hover, ul..a
    margin-right: 0;
 }
 
-ul..art-blockcontent ul ul a
+ul.art-blockcontent ul ul a
 {
    padding-left: 54px;
 }
-ul..art-blockcontent ul ul ul a
+ul.art-blockcontent ul ul ul a
 {
    padding-left: 81px;
 }
-ul..art-blockcontent ul ul ul ul a
+ul.art-blockcontent ul ul ul ul a
 {
    padding-left: 108px;
 }
-ul..art-blockcontent ul ul ul ul ul a
+ul.art-blockcontent ul ul ul ul ul a
 {
    padding-left: 135px;
 }
 
-ul..art-blockcontent ul>li>a:hover, ul..art-blockcontent ul>li>a.active:hover
+ul.art-blockcontent ul>li>a:hover, ul.art-blockcontent ul>li>a.active:hover
 {
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
@@ -260,39 +260,39 @@ ul..art-blockcontent ul>li>a:hover, ul..art-blockcontent ul>li>a.active:hover
    border:1px solid #FBC737;
    margin:0 auto;
 }
-ul..art-blockcontent ul li a:hover, ul..art-blockcontent ul li a.active:hover
+ul.art-blockcontent ul li a:hover, ul.art-blockcontent ul li a.active:hover
 {
    text-decoration: none;
    color: #7D2B03;
 }
 
-ul..art-blockcontent ul a:hover:after
+ul.art-blockcontent ul a:hover:after
 {
    background-position: center ;
 }
-ul..art-blockcontent ul a.active:hover:after
+ul.art-blockcontent ul a.active:hover:after
 {
    background-position: center ;
 }
-ul..art-blockcontent ul a.active:after
+ul.art-blockcontent ul a.active:after
 {
    background-position: bottom ;
 }
 
-ul..art-blockcontent li li a.active:hover span.border-top, ul..art-blockcontent li li a.active:hover span.border-bottom 
+ul.art-blockcontent li li a.active:hover span.border-top, ul.art-blockcontent li li a.active:hover span.border-bottom 
 {
    background-color: transparent;
 }
-ul..art-blockcontent li li a:hover span.border-top, ul..art-blockcontent li li a:hover span.border-bottom 
+ul.art-blockcontent li li a:hover span.border-top, ul.art-blockcontent li li a:hover span.border-bottom 
 {
    background-color: #FBC737 !important;
 }
-ul..art-blockcontent li li:hover, ul..art-blockcontent li li a:hover, ul..art-blockcontent li li a:hover span.border-top, ul..art-blockcontent li li a:hover span.border-bottom
+ul.art-blockcontent li li:hover, ul.art-blockcontent li li a:hover, ul.art-blockcontent li li a:hover span.border-top, ul.art-blockcontent li li a:hover span.border-bottom
 {
    z-index: 2;
 }
 
-ul..art-blockcontent ul>li>a.active
+ul.art-blockcontent ul>li>a.active
 {
    -webkit-border-radius:4px;
    -moz-border-radius:4px;
@@ -300,17 +300,17 @@ ul..art-blockcontent ul>li>a.active
    border:1px solid #D74B04;
    margin:0 auto;
 }
-ul..art-blockcontent ul a.active, ul..art-blockcontent ul a:hover, ul..art-blockcontent ul a.active:hover
+ul.art-blockcontent ul a.active, ul.art-blockcontent ul a:hover, ul.art-blockcontent ul a.active:hover
 {
    text-decoration: none;
    color: #7D2B03;
 }
 
-ul..art-blockcontent li li a.active
+ul.art-blockcontent li li a.active
 {
    z-index: 1;
 }
-ul..art-blockcontent li li a.active span.border-top, ul..art-blockcontent li li a.active span.border-bottom 
+ul.art-blockcontent li li a.active span.border-top, ul.art-blockcontent li li a.active span.border-bottom 
 {
    background-color: #D74B04;
    z-index: 1;
