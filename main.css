@@ -2180,7 +2180,7 @@ div.art-block img
    color: #322501;
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   line-height: 175%;
+   line-height: 100%;
 }
 
 .art-blockcontent p
@@ -2230,7 +2230,7 @@ div.art-block img
 {
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   line-height: 175%;
+   line-height: 100%;
    color: #5A4202;
    margin: 5px 0 0 10px;
       background: #FFFFFF;
