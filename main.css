@@ -2168,7 +2168,7 @@ div.art-block img
    color: #322501;
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   line-height: 175%;
+   line-height: 100%;
 }
 .art-blockcontent table,
 .art-blockcontent li, 
