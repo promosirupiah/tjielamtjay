@@ -1,4 +1,3 @@
-//<![CDATA[
 /* Created by Artisteer v4.1.0.59861 */
 /*jshint forin:true, noarg:true, noempty:true, eqeqeq:true, bitwise:true, strict:true, undef:true, curly:false, browser:true, jquery:false */
 /*global jQuery BackgroundHelper */
@@ -498,8 +497,69 @@ jQuery(function($) {
     }
     $('ul.art-vmenu li:not(:first-child),ul.art-vmenu li li li:first-child,ul.art-vmenu>li>ul').each(function () { $(this).append('<div class="art-vmenu-separator"> </div><div class="art-vmenu-separator-bg"> </div>'); });
 });
+jQuery(function() {
+    "use strict";
+    setOpenSubmenuWithNoReload({vMenuClass: "art-vmenu", activeClass: "active", hoveredClass: "hovered"});
+});
+
+var setOpenSubmenuWithNoReload = (function($) {
+    "use strict";
+    return (function(vMenuInfo) {
+        $("ul." + vMenuInfo.vMenuClass + " li").each(function () {
+            var item = $(this);
+            item.children("a").bind("click", function(e) {
+                var link = $(this);
+                var simple = link.siblings("ul").length === 0;
+                link.parent().siblings().children("ul." + vMenuInfo.activeClass).slideUp(function() {
+                    $(this).find("li, a, ul").removeClass(vMenuInfo.activeClass);
+                    $(this).removeClass(vMenuInfo.activeClass).siblings("a").removeClass(vMenuInfo.activeClass);
+                    $(this).css("display", "");
+                });
+                link.parent().siblings().children("a." + vMenuInfo.activeClass).removeClass(vMenuInfo.activeClass);
+                link.parent().siblings().removeClass(vMenuInfo.activeClass);
+                if (simple && !link.hasClass(vMenuInfo.activeClass)) {
+                    link.addClass(vMenuInfo.activeClass).parent().addClass(vMenuInfo.activeClass);
+                }
+                if (!simple) {
+                    if (link.hasClass(vMenuInfo.activeClass)) {
+                        link.siblings("ul").slideUp("fast", function() {
+                            $(this).removeClass(vMenuInfo.activeClass).siblings("a").removeClass(vMenuInfo.activeClass).parent().removeClass(vMenuInfo.activeClass);
+                            $(this).css("display", "");
+                        });
+                    } else {
+                        link.siblings("ul").slideDown("fast", function() {
+                            $(this).addClass(vMenuInfo.activeClass).siblings("a").addClass(vMenuInfo.activeClass).parent().addClass(vMenuInfo.activeClass);
+                            $(this).css("display", "");
+                        });
+                    }
+                
+                    e.preventDefault();
+                    return false;
+                }
+            });
+        });
+    });
+})(jQuery);
 
 
+jQuery(function($) {
+    "use strict";
+    if (!$("html").hasClass("ie7")) {
+        return;
+    }
+    $.each($("ul.art-vmenu"), function () {
+        var width = $(this).innerWidth();
+        $.each($(this).find("li li"), function() {
+            var a = $(this).children("a");
+            var pl = a.css("padding-left").replace("px", "");
+            var pr = a.css("padding-right").replace("px", "");
+            var bl = a.css("border-left-width").replace("px", "");
+            var br = a.css("border-right-width").replace("px", "");
+            a.css("width", width - pl - pr - bl - br);
+        });
+    });
+    $("ul.art-vmenu li li a.active").parent().addClass("active");
+});
 
 var fixRssIconLineHeight = (function ($) {
     "use strict";
@@ -1172,7 +1232,7 @@ var processHeaderMultipleBg = (function ($) {
             }
             header.append("<div style=\"position:absolute;top:0;left:0;width:100%;height:100%;background:" + bgimage + " " + bgpositions[i] + " no-repeat\">");
         }
-        header.css('background-image', "url('http://promosirupiah.github.io/tjielamtjay/images/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
+        header.css('background-image', "url('images/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
         header.css('background-position', "center top");
     });
 })(jQuery);
@@ -1604,6 +1664,3 @@ jQuery(function ($) {
         "top": offset.top + "px"
     });
 });
-
-//]]>
-

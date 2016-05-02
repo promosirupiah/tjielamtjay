@@ -261,7 +261,7 @@ body#layout .art-footer-default {
 
 #art-main
 {
-   background: #FAB905 url('http://promosirupiah.github.io/tjielamtjay/images/pageglare.png') no-repeat fixed;
+   background: #E2341D url('images/pageglare.png') no-repeat fixed;
    margin:0 auto;
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -627,47 +627,33 @@ li p, .art-postcontent li p, .art-blockcontent li p
    margin-right: 0 !important;
 }
 
-.art-object971557269
+.art-object1607173242
 {
     display: block;
-    left: 2.77%;
-    margin-left: -4px;
+    left: 5.86%;
+    margin-left: -18px;
     position: absolute;
-    top: 22px;
-    width: 157px;
-    height: 157px;
-    background-image: url('http://promosirupiah.github.io/tjielamtjay/images/object971557269.png');
+    top: 6px;
+    width: 313px;
+    height: 185px;
+    background-image: url('images/object1607173242.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     z-index: 1;
 }
-.art-object1641679277
+.art-object1734207433
 {
     display: block;
-    left: 29.99%;
-    margin-left: -34px;
+    left: 92.89%;
+    margin-left: -294px;
     position: absolute;
-    top: 21px;
-    width: 158px;
-    height: 158px;
-    background-image: url('http://promosirupiah.github.io/tjielamtjay/images/object1641679277.png');
+    top: 126px;
+    width: 317px;
+    height: 67px;
+    background-image: url('images/object1734207433.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     z-index: 2;
-}
-.art-object54574184
-{
-    display: block;
-    left: 96.62%;
-    margin-left: -383px;
-    position: absolute;
-    top: 40px;
-    width: 397px;
-    height: 125px;
-    background-image: url('http://promosirupiah.github.io/tjielamtjay/images/object54574184.png');
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    z-index: 3;
 }
 
 
@@ -677,21 +663,27 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .art-header
 {
+   -webkit-border-radius:0 0 10px 10px;
+   -moz-border-radius:0 0 10px 10px;
+   border-radius:0 0 10px 10px;
+   -webkit-box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   -moz-box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
    margin:0 auto;
    height: 200px;
-   background-image: url('http://promosirupiah.github.io/tjielamtjay/images/header.jpg');
+   background-image: url('images/header.jpg');
    background-position: center top;
    background-repeat: no-repeat;
    position: relative;
    min-width: 700px;
    max-width: 1920px;
-   width: 100%;
+   width: 95%;
    z-index: auto !important;
 }
 
 .responsive .art-header 
 {
-   background-image: url('http://promosirupiah.github.io/tjielamtjay/images/header.jpg');
+   background-image: url('images/header.jpg');
    background-position: center center;
 }
 
@@ -701,20 +693,27 @@ li p, .art-postcontent li p, .art-blockcontent li p
    z-index:101;
 }
 
+.art-header .art-slider-inner
+{
+   -webkit-border-radius:0 0 10px 10px;
+   -moz-border-radius:0 0 10px 10px;
+   border-radius:0 0 10px 10px;
+}
+
 .art-nav
 {
-   background: #E2341D;
-   background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -moz-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -o-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -ms-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   -svg-background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
+   background: #FBC532;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   -webkit-box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   -moz-box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   padding:4px;
    margin:0 auto;
    position: relative;
-   z-index: 5;
-   text-align: left;
+   z-index: 499;
+   text-align: right;
 }
 
 ul.art-hmenu a, ul.art-hmenu a:link, ul.art-hmenu a:visited, ul.art-hmenu a:hover 
@@ -769,7 +768,12 @@ ul.art-hmenu, ul.art-hmenu ul
 ul.art-hmenu 
 {
    display: inline-block;
-   vertical-align: bottom;
+   vertical-align: middle;
+   padding-left: 10px;
+   padding-right: 10px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 .art-nav:before 
@@ -780,9 +784,9 @@ ul.art-hmenu
 .desktop .art-nav{
    min-width: 700px;
    max-width: 1920px;
-   width: 100%;
-   padding-left: 0;
-   padding-right: 0;
+   width: 95%;
+   padding-left: 4px;
+   padding-right: 4px;
 }
 
 .art-hmenu-extra1
@@ -807,7 +811,7 @@ ul.art-hmenu
 
 .art-hmenu
 {
-   float: left;
+   float: right;
 }
 
 .art-menuitemcontainer
@@ -815,26 +819,38 @@ ul.art-hmenu
    margin:0 auto;
 }
 ul.art-hmenu>li {
-   margin-left: 1px;
+   margin-left: 3px;
 }
 ul.art-hmenu>li:first-child {
-   margin-left: 0;
+   margin-left: 1px;
 }
 ul.art-hmenu>li:last-child, ul.art-hmenu>li.last-child {
-   margin-right: 0;
+   margin-right: 1px;
 }
 
 ul.art-hmenu>li>a
 {
+   background: #FCD66E;
+   background: linear-gradient(top, #FDDF8C 0, #FCD15A 40%, #FCCF55 50%, #FCD15A 60%, #FDDF8C 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #FDDF8C 0, #FCD15A 40%, #FCCF55 50%, #FCD15A 60%, #FDDF8C 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FDDF8C 0, #FCD15A 40%, #FCCF55 50%, #FCD15A 60%, #FDDF8C 100%) no-repeat;
+   background: -o-linear-gradient(top, #FDDF8C 0, #FCD15A 40%, #FCCF55 50%, #FCD15A 60%, #FDDF8C 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FDDF8C 0, #FCD15A 40%, #FCCF55 50%, #FCD15A 60%, #FDDF8C 100%) no-repeat;
+   background: linear-gradient(top, #FDDF8C 0, #FCD15A 40%, #FCCF55 50%, #FCD15A 60%, #FDDF8C 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FDDF8C 0, #FCD15A 40%, #FCCF55 50%, #FCD15A 60%, #FDDF8C 100%) no-repeat;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+   border-radius:7px;
+   border:1px solid #828282;
    padding:0 12px;
    margin:0 auto;
    position: relative;
    display: block;
-   height: 27px;
+   height: 25px;
    cursor: pointer;
    text-decoration: none;
-   color: #FCFCFC;
-   line-height: 27px;
+   color: #4D4D4D;
+   line-height: 25px;
    text-align: center;
 }
 
@@ -855,6 +871,18 @@ ul.art-hmenu>li>a
 
 ul.art-hmenu>li>a.active
 {
+   background: #FA681E;
+   background: linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   background: -moz-linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   background: -o-linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   background: -ms-linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   background: linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   -svg-background: linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+   border-radius:7px;
+   border:1px solid #D74B04;
    padding:0 12px;
    margin:0 auto;
    color: #FFF5F0;
@@ -877,6 +905,10 @@ ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
    background: -ms-linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
    background: linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
    -svg-background: linear-gradient(top, #FB7C3C 0, #FA5D0F 40%, #FA5A0A 50%, #FA5D0F 60%, #FB7C3C 100%) no-repeat;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+   border-radius:7px;
+   border:1px solid #D74B04;
    padding:0 12px;
    margin:0 auto;
 }
@@ -892,10 +924,10 @@ ul.art-hmenu>li:before
    display: block;
    content:' ';
    top:0;
-   left:  -1px;
-   width:1px;
-   height: 27px;
-   background: url('http://promosirupiah.github.io/tjielamtjay/images/menuseparator.png') center center no-repeat;
+   left:  -3px;
+   width:3px;
+   height: 25px;
+   background: url('images/menuseparator.png') center center no-repeat;
 }
 ul.art-hmenu>li:first-child:before{
    display:none;
@@ -905,6 +937,10 @@ ul.art-hmenu li li a
 {
    background: #C7C7C7;
    background: transparent;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   border:1px solid #230C01;
    padding:0 8px;
    margin:0 auto;
 }
@@ -932,7 +968,7 @@ ul.art-hmenu li li ul>li:last-child
    white-space: nowrap;
    height: 25px;
    min-width: 7em;
-   border: 0 solid transparent;
+   border: 1px solid transparent;
    text-align: left;
    line-height: 25px;
    color: #7D7D7D;
@@ -959,6 +995,10 @@ ul.art-hmenu li li ul>li:last-child
 ul.art-hmenu ul li a:hover, .desktop ul.art-hmenu ul li:hover>a
 {
    background: #FFFFFF;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   border:1px solid #230C01;
    margin:0 auto;
 }
 .art-hmenu ul a:hover
@@ -979,6 +1019,12 @@ ul.art-hmenu ul li a:hover, .desktop ul.art-hmenu ul li:hover>a
 ul.art-hmenu ul:before
 {
    background: #FEF8E6;
+   -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+   border-radius:8px;
+   -webkit-box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   -moz-box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
+   box-shadow:0 0 5px 3px rgba(0, 0, 0, 0.3);
    border:1px solid #FDEAB4;
    margin:0 auto;
    display: block;
@@ -1002,7 +1048,7 @@ ul.art-hmenu ul
    z-index: 10;
    left: 0;
    top: 0;
-   background-image: url('http://promosirupiah.github.io/tjielamtjay/images/spacer.gif');
+   background-image: url('images/spacer.gif');
 }
 
 .desktop ul.art-hmenu>li>ul
@@ -1013,7 +1059,7 @@ ul.art-hmenu ul
 
 .desktop ul.art-hmenu ul ul
 {
-   padding: 32px 32px 32px 12px;
+   padding: 32px 32px 32px 14px;
    margin: -32px 0 0 -9px;
 }
 
@@ -1044,7 +1090,7 @@ ul.art-hmenu ul
 {
    right: auto;
    left: 0;
-   padding: 32px 32px 32px 12px;
+   padding: 32px 32px 32px 14px;
    margin: -32px 0 0 -9px;
 }
 
@@ -1052,7 +1098,7 @@ ul.art-hmenu ul
 {
    left: auto;
    right: 0;
-   padding: 32px 12px 32px 32px;
+   padding: 32px 14px 32px 32px;
    margin: -32px -9px 0 0;
 }
 
@@ -1065,11 +1111,11 @@ ul.art-hmenu ul
 
 .desktop ul.art-hmenu ul ul:before
 {
-   border-radius: 0;
+   border-radius: 8px;
    top: 30px;
    bottom: 30px;
    right: 30px;
-   left: 10px;
+   left: 12px;
 }
 
 .desktop ul.art-hmenu>li>ul:before
@@ -1090,20 +1136,26 @@ ul.art-hmenu ul
 }
 .desktop ul.art-hmenu ul ul.art-hmenu-left-to-right:before {
    right: 30px;
-   left: 10px;
+   left: 12px;
 }
 .desktop ul.art-hmenu ul ul.art-hmenu-right-to-left:before {
-   right: 10px;
+   right: 12px;
    left: 30px;
 }
 
 .art-sheet
 {
-   border:1px solid #FCD66E;
-   margin:15px auto 0;
+   background: #FAB905;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
+   -webkit-box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   -moz-box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   box-shadow:1px 1px 3px 2px rgba(0, 0, 0, 0.25);
+   margin:0 auto;
    position:relative;
    cursor:auto;
-   width: 100%;
+   width: 95%;
    min-width: 700px;
    max-width: 1920px;
    z-index: auto !important;
@@ -1320,7 +1372,7 @@ form.art-search input[type="submit"], input.art-search-button, a.art-search-butt
    left:auto;
    display:block;
    border:none;
-   background:url('http://promosirupiah.github.io/tjielamtjay/images/searchicon.png') center center no-repeat;
+   background:url('images/searchicon.png') center center no-repeat;
    width:24px;
    height: 100%;
    padding:0;
@@ -1687,8 +1739,10 @@ label.art-radiobutton.hovered:before
 }
 .art-vmenublock
 {
-   background: #FFFCF5;
-   background: rgba(255, 252, 245, 0.2);
+   -webkit-border-radius:8px 8px 0 0;
+   -moz-border-radius:8px 8px 0 0;
+   border-radius:8px 8px 0 0;
+   padding:7px;
    margin:3px;
 }
 div.art-vmenublock img
@@ -1699,13 +1753,16 @@ div.art-vmenublock img
 .art-vmenublockheader
 {
    background: #E2341D;
-   background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -moz-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -o-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -ms-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   -svg-background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
+   background: linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   -webkit-border-radius:3px 3px 0 0;
+   -moz-border-radius:3px 3px 0 0;
+   border-radius:3px 3px 0 0;
    padding:10px 0;
    margin:0 auto 7px;
 }
@@ -1725,7 +1782,7 @@ div.art-vmenublock img
 
 .art-vmenublockheader .t:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/vmenublockheadericon.png');
+   content:url('images/vmenublockheadericon.png');
    margin-right:6px;
    bottom: 3px;
    position:relative;
@@ -1781,6 +1838,15 @@ ul.art-vmenu ul.active
 
 ul.art-vmenu>li>a
 {
+   background: #FFFFFF;
+   background: rgba(255, 255, 255, 0.2);
+   -webkit-border-radius:6px;
+   -moz-border-radius:6px;
+   border-radius:6px;
+   -webkit-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.03);
+   -moz-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.03);
+   box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.03);
+   border:1px solid #000000;
    padding:0 15px;
    margin:0 auto;
    color: #644A02;
@@ -1821,7 +1887,7 @@ ul.art-vmenu>li:first-child
 
 ul.art-vmenu>li>a:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/vmenuitemicon.png');
+   content:url('images/vmenuitemicon.png');
    margin-right:5px;
    bottom: 2px;
    position:relative;
@@ -1838,7 +1904,7 @@ ul.art-vmenu>li>a:before
 
 ul.art-vmenu>li>a.active:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/vmenuactiveitemicon.png');
+   content:url('images/vmenuactiveitemicon.png');
    margin-right:5px;
    bottom: 2px;
    position:relative;
@@ -1855,7 +1921,7 @@ ul.art-vmenu>li>a.active:before
 
 ul.art-vmenu>li>a:hover:before,  ul.art-vmenu>li>a.active:hover:before,  ul.art-vmenu>li:hover>a:before,  ul.art-vmenu>li:hover>a.active:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/vmenuhovereditemicon.png');
+   content:url('images/vmenuhovereditemicon.png');
    margin-right:5px;
    bottom: 2px;
    position:relative;
@@ -1892,14 +1958,23 @@ ul.art-vmenu>li>a.active:hover>span.border-top, ul.art-vmenu>li>a.active:hover>s
 
 ul.art-vmenu>li>a.active
 {
+   background: #E2341D;
+   background: rgba(226, 52, 29, 0.4);
+   -webkit-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.06);
+   -moz-box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.06);
+   box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.06);
+   border:1px solid #D74B04;
    padding:0 15px;
    margin:0 auto;
    text-decoration: none;
-   color: #642302;
+   color: #7D2B03;
 }
 
 ul.art-vmenu>li>ul:before
 {
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
    margin:0 auto;
    display: block;
    position: absolute;
@@ -1912,6 +1987,10 @@ ul.art-vmenu>li>ul:before
 
 ul.art-vmenu li li a
 {
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #FA681E;
    margin:0 auto;
    position: relative;
 }
@@ -1936,7 +2015,7 @@ ul.art-vmenu ul a
    padding-right: 27px;
    z-index: 0;
    line-height: 22px;
-   color: #333333;
+   color: #404040;
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
@@ -1949,7 +2028,7 @@ ul.art-vmenu ul a
 ul.art-vmenu ul a:visited, ul.art-vmenu ul a.active:hover, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active
 {
    line-height: 22px;
-   color: #333333;
+   color: #404040;
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
@@ -1978,12 +2057,16 @@ ul.art-vmenu ul ul ul ul ul a
 
 ul.art-vmenu ul>li>a:hover, ul.art-vmenu ul>li>a.active:hover
 {
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #FBC737;
    margin:0 auto;
 }
 ul.art-vmenu ul li a:hover, ul.art-vmenu ul li a.active:hover
 {
    text-decoration: none;
-   color: #642302;
+   color: #7D2B03;
 }
 
 ul.art-vmenu ul a:hover:after
@@ -1999,14 +2082,41 @@ ul.art-vmenu ul a.active:after
    background-position: bottom ;
 }
 
+ul.art-vmenu li li a.active:hover span.border-top, ul.art-vmenu li li a.active:hover span.border-bottom 
+{
+   background-color: transparent;
+}
+ul.art-vmenu li li a:hover span.border-top, ul.art-vmenu li li a:hover span.border-bottom 
+{
+   background-color: #FBC737 !important;
+}
+ul.art-vmenu li li:hover, ul.art-vmenu li li a:hover, ul.art-vmenu li li a:hover span.border-top, ul.art-vmenu li li a:hover span.border-bottom
+{
+   z-index: 2;
+}
+
 ul.art-vmenu ul>li>a.active
 {
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   border-radius:4px;
+   border:1px solid #D74B04;
    margin:0 auto;
 }
 ul.art-vmenu ul a.active, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active:hover
 {
    text-decoration: none;
-   color: #642302;
+   color: #7D2B03;
+}
+
+ul.art-vmenu li li a.active
+{
+   z-index: 1;
+}
+ul.art-vmenu li li a.active span.border-top, ul.art-vmenu li li a.active span.border-bottom 
+{
+   background-color: #D74B04;
+   z-index: 1;
 }
 
 .art-block
@@ -2025,14 +2135,14 @@ div.art-block img
 .art-blockheader
 {
    background: #E2341D;
-   background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -moz-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -o-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: -ms-linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   -svg-background: linear-gradient(top, #B92B18 0, #E2341D 23%, #E6513D 40%, #E75946 50%, #E6513D 60%, #E2341D 77%, #B92B18 100%) no-repeat;
-   border:1px dotted transparent;
+   background: linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   background: linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(185, 43, 24, 0.2) 0, rgba(226, 52, 29, 0.2) 23%, rgba(230, 81, 61, 0.2) 40%, rgba(231, 89, 70, 0.2) 50%, rgba(230, 81, 61, 0.2) 60%, rgba(226, 52, 29, 0.2) 77%, rgba(185, 43, 24, 0.2) 100%) no-repeat;
+   border:1px dotted rgba(140, 103, 3, 0.2);
    padding:12px 7px;
    margin:0 auto;
 }
@@ -2042,7 +2152,7 @@ div.art-block img
 .art-blockheader .t a:visited, 
 .art-blockheader .t a:hover
 {
-   color: #FCFCFC;
+   color: #404040;
    font-size: 20px;
    font-family: Salsa, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
@@ -2099,7 +2209,7 @@ div.art-block img
 }
 .art-block ul>li:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/blockbullets.png');
+   content:url('images/blockbullets.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2315,7 +2425,7 @@ pre
 
 .art-postdateicon:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/postdateicon.png');
+   content:url('images/postdateicon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2332,7 +2442,7 @@ pre
 
 .art-postauthoricon:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/postauthoricon.png');
+   content:url('images/postauthoricon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2349,7 +2459,7 @@ pre
 
 .art-postediticon:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/postediticon.png');
+   content:url('images/postediticon.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2366,7 +2476,7 @@ pre
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/postbullets.png');
+   content:url('images/postbullets.png');
    margin-right:10px;
    bottom: 2px;
    position:relative;
@@ -2433,7 +2543,7 @@ pre
 
 blockquote
 {
-   background: #FEF8E6 url('http://promosirupiah.github.io/tjielamtjay/images/postquote.png') no-repeat scroll;
+   background: #FEF8E6 url('images/postquote.png') no-repeat scroll;
    padding:10px 10px 10px 47px;
    margin:10px 0 0 25px;
    color: #231A01;
@@ -2512,12 +2622,15 @@ blockquote p,
 
 .art-footer
 {
-   background: #000000;
+   background: #E2341D;
+   -webkit-border-radius:10px;
+   -moz-border-radius:10px;
+   border-radius:10px;
    border-top:1px dotted #FCD66E;
    padding:25px;
    margin:20px auto 0;
    position: relative;
-   color: #FFFFFF;
+   color: #FFFEFA;
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    line-height: 175%;
@@ -2532,7 +2645,7 @@ blockquote p,
 .art-footer th,
 .art-footer caption
 {
-   color: #FFFFFF;
+   color: #FFFEFA;
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    line-height: 175%;
@@ -2547,21 +2660,21 @@ blockquote p,
 .art-footer a,
 .art-footer a:link
 {
-   color: #FBC83C;
+   color: #FDE7AA;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:visited
 {
-   color: #FAB905;
+   color: #FCDC82;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
 }
 
 .art-footer a:hover
 {
-   color: #FB7C3C;
+   color: #FDC6AA;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: underline;
 }
@@ -2610,7 +2723,7 @@ blockquote p,
 
 .art-rss-tag-icon
 {
-   background:  url('http://promosirupiah.github.io/tjielamtjay/images/footerrssicon.png') no-repeat scroll;
+   background:  url('images/footerrssicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2626,7 +2739,7 @@ blockquote p,
 
 .art-facebook-tag-icon
 {
-   background:  url('http://promosirupiah.github.io/tjielamtjay/images/footerfacebookicon.png') no-repeat scroll;
+   background:  url('images/footerfacebookicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2642,7 +2755,7 @@ blockquote p,
 
 .art-twitter-tag-icon
 {
-   background:  url('http://promosirupiah.github.io/tjielamtjay/images/footertwittericon.png') no-repeat scroll;
+   background:  url('images/footertwittericon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2658,7 +2771,7 @@ blockquote p,
 
 .art-footer ul>li:before
 {
-   content:url('http://promosirupiah.github.io/tjielamtjay/images/footerbullets.png');
+   content:url('images/footerbullets.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2678,7 +2791,7 @@ blockquote p,
 {
    font-size: 13px;
    font-family: 'PT Sans', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   color: #FDC6AA;
+   color: #FEDAC8;
 }
 
 .art-footer ul>li, .art-footer ol
@@ -2704,7 +2817,7 @@ blockquote p,
    font-style: normal;
    font-weight: normal;
    text-decoration: underline;
-   color: #424242;
+   color: #C7C7C7;
 }
 
 .art-page-footer
@@ -2714,7 +2827,7 @@ blockquote p,
    padding: 1em;
    text-align: center !important;
    text-decoration: none;
-   color: #644A02;
+   color: #FCD569;
 }
 
 .art-lightbox-wrapper 
@@ -2767,7 +2880,7 @@ blockquote p,
 
 .art-lightbox-wrapper .loading
 {
-   background: #fff url('http://promosirupiah.github.io/tjielamtjay/images/preloader-01.gif') center center no-repeat;
+   background: #fff url('images/preloader-01.gif') center center no-repeat;
    border: 1px solid #b4b4b4;
    border-radius: 10px;
    box-shadow: 0 2px 5px #333;
@@ -2919,7 +3032,9 @@ blockquote p,
 {
    border-left:1px dotted #FCD66E;
    margin:0 auto;
-   width: 200px;
+   width: 25%;
 }
 
+/* Begin Additional CSS Styles */
 
+/* End Additional CSS Styles */
