@@ -644,10 +644,10 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-object1734207433
 {
     display: block;
-    right: 1%;
- /*   margin-left: -294px; */
+    left: 92.89%;
+    margin-left: -294px;
     position: absolute;
-    bottom: 10px;
+    top: 115px;
     width: 400px;
     height: 85px;
     background-image: url('images/object1734207433.png');
