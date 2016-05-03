@@ -647,9 +647,9 @@ li p, .art-postcontent li p, .art-blockcontent li p
     right: 1%;
  /*   margin-left: -294px; */
     position: absolute;
-    top: 126px;
-    width: 706px;
-    height: 150px;
+    bottom: 10px;
+    width: 600px;
+    height: 127px;
     background-image: url('images/object1734207433.png');
     background-position: 0 0;
     background-repeat: no-repeat;
