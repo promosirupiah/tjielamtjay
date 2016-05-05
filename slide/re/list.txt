@@ -1,22 +1,22 @@
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/2.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/4.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/DSC05642.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/DSC06771.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_0163.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_0916.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_0930.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_1011.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/foto utk yg atas.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/HOO_9296.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0002.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0026.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0178.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_2106.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/ULM_0001.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/ULM_0038.JPG'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0001.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0002.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0003.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0005.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0006.jpg'/>
-<img src='http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0246.jpg'/>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/2.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/2.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/4.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/4.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/DSC05642.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/DSC05642.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/DSC06771.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/DSC06771.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_0163.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/DSC_0163.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_0916.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/DSC_0916.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_0930.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/DSC_0930.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/DSC_1011.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/DSC_1011.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/foto utk yg atas.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/foto utk yg atas.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/HOO_9296.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/HOO_9296.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0002.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG_0002.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0026.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG_0026.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0178.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG_0178.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_2106.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG_2106.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/ULM_0001.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/ULM_0001.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/ULM_0038.JPG"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/ULM_0038.JPG'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0001.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG-20160504-WA0001.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0002.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG-20160504-WA0002.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0003.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG-20160504-WA0003.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0005.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG-20160504-WA0005.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG-20160504-WA0006.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG-20160504-WA0006.jpg'/></a>
+<a href="http://promosirupiah.github.io/tjielamtjay/slide/re/IMG_0246.jpg"><img src='http://promosirupiah.github.io/tjielamtjay/slide/re/thumbs/IMG_0246.jpg'/></a>
